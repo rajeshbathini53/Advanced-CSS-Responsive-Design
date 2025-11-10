@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced CSS Responsive Design</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- ✅ Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 🌐 Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Advanced CSS Layouts and Responsiveness</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🏠 Hero Section -->
+  <section id="home" class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+    <div>
+      <h1 class="display-4 animate-title">Welcome to Cognifyz</h1>
+      <p class="lead">Building Responsive and Modern Websites</p>
+      <a href="#about" class="btn btn-primary btn-lg mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- 🧠 About Section -->
+  <section id="about" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2 class="fw-bold mb-3">About Us</h2>
+        <p>We specialize in modern web development, creating visually appealing and fully responsive interfaces that work seamlessly on all devices. This project demonstrates advanced CSS, transitions, and Bootstrap layout design.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="laptop.webp" class="img-fluid rounded shadow" alt="About Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- 📞 Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Get In Touch</h2>
+      <form class="contact-form mx-auto" style="max-width: 500px;">
+        <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+        <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+        <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+        <button type="submit" class="btn btn-success w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 🦶 Footer -->
+  <footer class="text-center text-white bg-dark py-3">
+    <p class="mb-0">© 2025 Cognifyz Web Development | Designed by Rajesh Bathini</p>
+  </footer>
+
+  <!-- ✅ Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
